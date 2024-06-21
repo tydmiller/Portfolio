@@ -18,3 +18,7 @@ https://tydmiller.github.io/CSS385_MP3/
 Duck In Cocktail Glass:
 
 ![Duck_SnapShot](https://github.com/tydmiller/Portfolio/assets/70169338/5d6fa22b-cbb7-44f6-9c6b-87693fa1262e)
+
+Knight:
+
+![Knight_SnapShot](https://github.com/tydmiller/Portfolio/assets/70169338/9f97a4e6-0a72-473f-8878-b67db7ca9d68)
