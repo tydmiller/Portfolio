@@ -9,9 +9,11 @@ Here are some images from my custom engine I made at DigiPen:
 
 Here are some of the projects I have worked on:
 https://funkeymonkey10.github.io/BigWhiteFish/
+
 https://tydmiller.github.io/CSS385_MP3/
 
 **3D Models I Have Created:**
+
 Duck In Cocktail Glass:
 
 ![Duck_SnapShot](https://github.com/tydmiller/Portfolio/assets/70169338/5d6fa22b-cbb7-44f6-9c6b-87693fa1262e)
