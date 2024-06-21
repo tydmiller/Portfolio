@@ -8,6 +8,7 @@ Here are some images from my custom engine I made at DigiPen:
 ![image](https://github.com/tydmiller/Portfolio/assets/70169338/26c74675-9e25-491a-b114-7a75fd2c168e)
 
 Here are some of the projects I have worked on:
+
 https://funkeymonkey10.github.io/BigWhiteFish/
 
 https://tydmiller.github.io/CSS385_MP3/
