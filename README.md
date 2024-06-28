@@ -1,6 +1,6 @@
 # Portfolio
-This includes a couple of projects and one of a custom game engine.
-The custom engine project is rather large in size so I to upload it as a zip.
+Hello and welcome to my portfolio. This portfolio displays my talents in the field of computer graphics. 
+I am skilled in C++, OpenGL, Vulkan, GLSL, and 3D modeling/CAD. This includes a couple of games that I have made and some of my custom game engine examples and other project I have worked on
 
 **Software Engineer:**
 
