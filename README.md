@@ -19,6 +19,10 @@ Play it Here:
 
 https://funkeymonkey10.github.io/BigWhiteFish/
 
+![image](https://github.com/tydmiller/Portfolio/assets/70169338/cfa57007-2707-484a-b6ff-9a235c65e040)
+
+Play it Here:
+
 https://tydmiller.github.io/CSS385_MP3/
 
 **3D Models I Have Created:**
