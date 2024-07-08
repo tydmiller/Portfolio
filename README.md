@@ -14,6 +14,8 @@ Here are some images from my custom engine I made at DigiPen:
 ![image](https://github.com/tydmiller/Portfolio/assets/70169338/cc21c805-8384-465a-8ef0-d9835dca59cb)
 
 Here are some of the projects I have worked on:
+![image](https://github.com/tydmiller/Portfolio/assets/70169338/f40f322e-9ee3-4198-8782-7342e3ba951f)
+Play it Here:
 
 https://funkeymonkey10.github.io/BigWhiteFish/
 
