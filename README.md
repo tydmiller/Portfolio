@@ -37,3 +37,7 @@ Duck In Cocktail Glass:
 Knight:
 
 ![Knight_SnapShot](https://github.com/tydmiller/Portfolio/assets/70169338/9f97a4e6-0a72-473f-8878-b67db7ca9d68)
+
+Table With Tableware:
+
+![Table](https://github.com/tydmiller/Portfolio/assets/70169338/c46549c9-48fb-4387-9e03-6c72400ff048)
