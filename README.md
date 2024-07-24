@@ -46,6 +46,7 @@ Table With Tableware:
 
 Baratone Solid Body Electric Guitar:
 26" inch scale length. Made from walnut wood. Designed and constructed body and neck. Soldered electrical components of guitar.
+
 ![Guitar_I_Made](https://github.com/user-attachments/assets/c8f7be39-17bc-4a7a-8b1f-c429ae7b5a1a)
 
 
