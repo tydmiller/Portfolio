@@ -10,6 +10,7 @@ Here are some images from my custom engine I made at DigiPen:
 ![image](https://github.com/tydmiller/Portfolio/assets/70169338/26c74675-9e25-491a-b114-7a75fd2c168e)
 
 3D Renderer using Vulkan and OpenGL:
+This project loads in STL and OBJ files and then displays them based on vertice coordinates given.
 
 ![image](https://github.com/tydmiller/Portfolio/assets/70169338/cc21c805-8384-465a-8ef0-d9835dca59cb)
 
