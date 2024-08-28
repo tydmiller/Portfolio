@@ -69,6 +69,7 @@ void STLObject::loadSTL(std::string fileName)
 			}
 		}
 	}
+	//binary format for STL
 	else
 	{
 		unsigned int fileSize = STLFile.end;
