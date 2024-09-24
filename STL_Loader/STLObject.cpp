@@ -8,6 +8,7 @@ void STLObject::loadSTL(std::string fileName)
 		throw std::runtime_error("File does not exist within directory");
 	}
 	char fileBeg[5];
+	//get first 5 char to check if binary or ASCII
 	STLFile.read(fileBeg, 5);
 	STLFile.seekg(0, STLFile.beg);
 	std::string solidHeader;
@@ -24,6 +25,7 @@ void STLObject::loadSTL(std::string fileName)
 		}
 		while(1)
 		{
+			//current line being red from the file
 			std::string lineHeader;
 			std::getline(STLFile, lineHeader);
 			if(lineHeader.empty() == false)
@@ -148,11 +150,13 @@ void STLObject::setVertex(std::string lineHeader)
 	int vertexIndex = findVertex(vertex);
 	if(vertexIndex == -1)
 	{
+		//want to push back both vertex and indice if vertex does not exist yet
 		listOfVertices.push_back(vertex);
 		listOfIndices.push_back(listOfVertices.size() - 1);
 	}
 	else
 	{
+		//else only push back vertex because duplicates are not allowed
 		listOfIndices.push_back(vertexIndex);
 	}
 	listOfFaces[indexOfFace].push_back(vertex);
