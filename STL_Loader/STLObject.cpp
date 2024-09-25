@@ -85,10 +85,6 @@ void STLObject::loadSTL(std::string fileName)
 		int iters = 0;
 		while(iters < listOfFaces.size())
 		{
-			if(iters == 7)
-			{
-				int ai = 5;
-			}
 			for(int i = 0; i < 4; i++)
 			{
 				float p[3];
