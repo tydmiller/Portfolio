@@ -1,7 +1,13 @@
+/*Author: Tyler Miller
+* Date: 11/6/2024
+* Description: Loads a manifold .STL File and translates the vertices into a vector of glm::vec3.
+* It is important to know that for this function to properly read the mesh all faces must be triangluar.
+* In addition it is also considered good practice to so for both the rendering pipeline and for slicing.
+*/
 #include "STLObject.h"
-
 void STLObject::loadSTL(std::string fileName)
 {
+	//tries to open STL file. Always loads binary because it is easier to check for ascii.
 	std::ifstream STLFile = std::ifstream(fileName, std::ios::binary);
 	if(STLFile.is_open() == false)
 	{
@@ -74,6 +80,7 @@ void STLObject::loadSTL(std::string fileName)
 	//binary format for STL
 	else
 	{
+		//have to manually set file size because ETF could be a char when reading bins
 		unsigned int fileSize = STLFile.end;
 		//bypass first 80 bytes including comments
 		char fileHeader[80];
@@ -179,6 +186,8 @@ void STLObject::setNormals(std::string lineHeader)
 	listOfNormals.push_back(vertex);
 }
 
+//STL do not have texture coords so toss any duplicates.
+//Important Note: if STL file is Non-Manifold this will cause errors
 int STLObject::findVertex(glm::vec3 vertex)
 {
 	for(int i = 0; i < listOfVertices.size(); i++)
