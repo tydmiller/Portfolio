@@ -2,7 +2,8 @@
 * Date: 11/6/2024
 * Description: Loads a manifold .STL File and translates the vertices into a vector of glm::vec3.
 * It is important to know that for this function to properly read the mesh all faces must be triangluar.
-* In addition it is also considered good practice to so for both the rendering pipeline and for slicing.
+* In addition it is considered good practice to make sure that the mesh is manifold for both the 
+* rendering pipeline and slicing.
 */
 #include "STLObject.h"
 void STLObject::loadSTL(std::string fileName)
@@ -178,6 +179,7 @@ void STLObject::setNormals(std::string lineHeader)
 			spaceIndex = lineHeader.size();
 		}
 		std::string coord = lineHeader.substr(pos, spaceIndex - pos);
+		//STL files support floats so stof has to be used here
 		vertexArray[coordIndex] = std::stof(coord, nullptr);
 		pos = spaceIndex + 1;
 		coordIndex += 1;
