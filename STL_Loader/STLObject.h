@@ -44,9 +44,13 @@ public:
 	std::vector<std::vector<glm::vec3>> getListOfFaces();
 
 private:
+	//List of vertices gotten from file (STL or OBJ)
 	std::vector<glm::vec3>listOfVertices;
+	//List of indices gotten from file (STL or OBJ)
 	std::vector<unsigned int> listOfIndices;
+	//List of normals gotten from file (STL or OBJ)
 	std::vector<glm::vec3> listOfNormals;
+	//Depending on file either faces is gotten from file or created at runtime
 	std::vector<std::vector<glm::vec3>>listOfFaces;
 	int indexOfFace = -1;
 };
