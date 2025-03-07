@@ -11,7 +11,7 @@ Here are some images from my custom engine I made at DigiPen:
 
 3D Renderer using Vulkan and OpenGL:
 
-This project loads in STL and OBJ files and then displays them based on vertices coordinates given. I have provided my class for loading STL files as an example.
+This project loads in STL and OBJ files and then displays them based on vertices coordinates given. I have provided my class for loading STL files as an example. Supports both Vulkan and OpenGL with a GLFW interface to manage the window.
 
 ![image](https://github.com/tydmiller/Portfolio/assets/70169338/cc21c805-8384-465a-8ef0-d9835dca59cb)
 
