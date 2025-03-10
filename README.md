@@ -15,6 +15,11 @@ This project loads in STL and OBJ files and then displays them based on vertices
 
 ![image](https://github.com/tydmiller/Portfolio/assets/70169338/cc21c805-8384-465a-8ef0-d9835dca59cb)
 
+Bare Metal C on Raspberry Pi Zero 2 W:
+
+![Firmware](https://github.com/user-attachments/assets/09b9f42d-1b8f-4728-949c-bcb4b6bac192)
+
+
 Here are some of the projects I have worked on:
 ![image](https://github.com/tydmiller/Portfolio/assets/70169338/f40f322e-9ee3-4198-8782-7342e3ba951f)
 Play it Here:
