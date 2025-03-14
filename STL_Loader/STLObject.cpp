@@ -1,11 +1,12 @@
 /*Author: Tyler Miller
-* Date: 11/6/2024
+* Date: 3/14/2025
 * Description: Loads a manifold .STL File and translates the vertices into a vector of glm::vec3.
 * It is important to know that for this function to properly read the mesh all faces must be triangluar.
-* In addition it is considered good practice to make sure that the mesh is manifold for both the 
+* In addition it is considered good practice to make sure that the mesh is manifold for both the
 * rendering pipeline and slicing.
 */
 #include "STLObject.h"
+
 void STLObject::loadSTL(std::string fileName)
 {
 	//tries to open STL file. Always loads binary because it is easier to check for ascii.
@@ -15,7 +16,6 @@ void STLObject::loadSTL(std::string fileName)
 		throw std::runtime_error("File does not exist within directory");
 	}
 	char fileBeg[5];
-	//get first 5 char to check if binary or ASCII
 	STLFile.read(fileBeg, 5);
 	STLFile.seekg(0, STLFile.beg);
 	std::string solidHeader;
@@ -32,7 +32,6 @@ void STLObject::loadSTL(std::string fileName)
 		}
 		while(1)
 		{
-			//current line being red from the file
 			std::string lineHeader;
 			std::getline(STLFile, lineHeader);
 			if(lineHeader.empty() == false)
@@ -81,7 +80,6 @@ void STLObject::loadSTL(std::string fileName)
 	//binary format for STL
 	else
 	{
-		//have to manually set file size because ETF could be a char when reading bins
 		unsigned int fileSize = STLFile.end;
 		//bypass first 80 bytes including comments
 		char fileHeader[80];
@@ -115,6 +113,8 @@ void STLObject::loadSTL(std::string fileName)
 					if(vertexIndex == -1)
 					{
 						listOfVertices.push_back(vertex);
+						keyPairVert.insert({vertex, vertexIndex});
+						vertexIndex += 1;
 						listOfIndices.push_back(listOfVertices.size() - 1);
 					}
 					else
@@ -154,13 +154,11 @@ void STLObject::setVertex(std::string lineHeader)
 	int vertexIndex = findVertex(vertex);
 	if(vertexIndex == -1)
 	{
-		//want to push back both vertex and indice if vertex does not exist yet
 		listOfVertices.push_back(vertex);
 		listOfIndices.push_back(listOfVertices.size() - 1);
 	}
 	else
 	{
-		//else only push back vertex because duplicates are not allowed
 		listOfIndices.push_back(vertexIndex);
 	}
 	listOfFaces[indexOfFace].push_back(vertex);
@@ -179,7 +177,6 @@ void STLObject::setNormals(std::string lineHeader)
 			spaceIndex = lineHeader.size();
 		}
 		std::string coord = lineHeader.substr(pos, spaceIndex - pos);
-		//STL files support floats so stof has to be used here
 		vertexArray[coordIndex] = std::stof(coord, nullptr);
 		pos = spaceIndex + 1;
 		coordIndex += 1;
@@ -192,14 +189,15 @@ void STLObject::setNormals(std::string lineHeader)
 //Important Note: if STL file is Non-Manifold this will cause errors
 int STLObject::findVertex(glm::vec3 vertex)
 {
-	for(int i = 0; i < listOfVertices.size(); i++)
+	if(keyPairVert.find(vertex) == keyPairVert.end())
 	{
-		if(listOfVertices[i] == vertex)
-		{
-			return i;
-		}
+		return -1;
+		
 	}
-	return -1;
+	else
+	{
+		return keyPairVert[vertex];
+	}
 }
 
 std::vector<glm::vec3> STLObject::getListOfVertices()
