@@ -2,6 +2,8 @@
 Hello and welcome to my portfolio. This portfolio displays my talents in the field of computer graphics and other engineering projects I work on in my past time. 
 This includes a couple of games that I have made and some of my custom game engine examples. I am skilled in C++, C, OpenGL, GLSL, Vulkan, SPV, and 3D modeling/CAD. I am currently learning how to develop on bare metal with C.
 
+**Note: All code and images are owned by Tyler Miller. Redistrubution not permitted.**
+
 **Software Engineer:**
 
 Here are some images from my custom engine I made at DigiPen:
