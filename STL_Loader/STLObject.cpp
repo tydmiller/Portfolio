@@ -113,7 +113,7 @@ void STLObject::loadSTL(std::string fileName)
 					if(vertexIndex == -1)
 					{
 						listOfVertices.push_back(vertex);
-						keyPairVert.insert({vertex, vertexIndex});
+						keyPairVert.insert({vertex, (listOfVertices.size() - 1)});
 						vertexIndex += 1;
 						listOfIndices.push_back(listOfVertices.size() - 1);
 					}
