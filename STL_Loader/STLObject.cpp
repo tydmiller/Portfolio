@@ -91,6 +91,7 @@ void STLObject::loadSTL(std::string fileName)
 		int iters = 0;
 		while(iters < listOfFaces.size())
 		{
+			//STL binary structure: face normals, vertex 1, vertex 2, vertex 3
 			for(int i = 0; i < 4; i++)
 			{
 				float p[3];
@@ -113,6 +114,7 @@ void STLObject::loadSTL(std::string fileName)
 					if(vertexIndex == -1)
 					{
 						listOfVertices.push_back(vertex);
+						//insert pair to make sure there are not duplicates
 						keyPairVert.insert({vertex, (listOfVertices.size() - 1)});
 						vertexIndex += 1;
 						listOfIndices.push_back(listOfVertices.size() - 1);
@@ -132,7 +134,10 @@ void STLObject::loadSTL(std::string fileName)
 		indexOfFace = -1;
 	}
 }
-
+/*Description: sets STL file vertex to glm vert3 and pushed back to list of vertices
+* Parameter: string lineHeader, the current line in file (ascii) or current block (binary)
+* return: void
+*/
 void STLObject::setVertex(std::string lineHeader)
 {
 	std::vector<float> vertexArray;
@@ -163,7 +168,10 @@ void STLObject::setVertex(std::string lineHeader)
 	}
 	listOfFaces[indexOfFace].push_back(vertex);
 }
-
+/*Description: sets STL file normal to glm vert3 and pushed back to list of normals
+* Parameter: string lineHeader, the current line in file (ascii) or current block (binary)
+* return: void
+*/
 void STLObject::setNormals(std::string lineHeader)
 {
 	std::vector<float> vertexArray;
