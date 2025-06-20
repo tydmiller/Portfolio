@@ -43,6 +43,9 @@ Multi-Console Compatible Console Controller:
 
 Schematic for the controller includes joystick and button layout. Made in KiCad.
 
+![image](https://github.com/user-attachments/assets/2133e2d1-c5c5-4391-89cf-700743f8174b)
+Resin PCB I made in Blender for buttons of the controller.
+
 **3D Models I Have Created:**
 
 Duck In Cocktail Glass:
