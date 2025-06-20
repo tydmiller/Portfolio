@@ -40,11 +40,13 @@ https://tydmiller.github.io/CSS385_MP3/
 Multi-Console Compatible Console Controller:
 
 ![image](https://github.com/user-attachments/assets/4cc435e3-b471-4fc6-a15c-9c00255b6331)
-
 Schematic for the controller includes joystick and button layout. Made in KiCad.
 
 ![image](https://github.com/user-attachments/assets/2133e2d1-c5c5-4391-89cf-700743f8174b)
 Resin PCB I made in Blender for buttons of the controller.
+
+![Button_PCB](https://github.com/user-attachments/assets/97f37a38-b2b0-4610-8558-4c31bad66b3f)
+Final product of the button PCB after printing in SLA (resin) and FDM (PLA plastic).
 
 **3D Models I Have Created:**
 
