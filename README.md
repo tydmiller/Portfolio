@@ -35,6 +35,14 @@ Play it Here:
 
 https://tydmiller.github.io/CSS385_MP3/
 
+**Projects That Use All Of My Skills (Software/Firmware development, CAD, 3D Modeling/Printing, Woodworking, Electrical Circuit Schematic)**
+
+Multi-Console Compatible Console Controller:
+
+![image](https://github.com/user-attachments/assets/4cc435e3-b471-4fc6-a15c-9c00255b6331)
+
+Schematic for the controller includes joystick and button layout. Made in KiCad.
+
 **3D Models I Have Created:**
 
 Duck In Cocktail Glass:
