@@ -47,9 +47,13 @@ Schematic for the controller includes joystick and button layout. Made in KiCad.
 
 Resin PCB I made in Blender for buttons of the controller.
 
+![8_Button_PCB_Back](https://github.com/user-attachments/assets/574f54ef-3ddb-451f-8a0c-32d752fd8e5e)
+
+![8_Button_PCB_Front](https://github.com/user-attachments/assets/3d7337f0-403c-408b-87c7-78fb3c9a6575)
+
 ![Button_PCB](https://github.com/user-attachments/assets/97f37a38-b2b0-4610-8558-4c31bad66b3f)
 
-Final product of the button PCB after printing in SLA (resin) and FDM (PLA plastic).
+Final product of the button PCB after printing in SLA (resin) and FDM (PLA plastic). Attached hot swapable sockets to the back.
 
 **3D Models I Have Created:**
 
