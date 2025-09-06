@@ -56,6 +56,14 @@ Resin PCB I made in Blender for buttons of the controller.
 
 Final product of the button PCB after printing in SLA (resin) and FDM (PLA plastic). Attached hot swapable sockets to the back.
 
+![Controller_Box_Side](https://github.com/user-attachments/assets/646c8a28-3386-40a5-8543-5119d6156f5c)
+
+
+![Controller_Box_Front](https://github.com/user-attachments/assets/daa2e4fe-8145-467b-9b66-62e2de99a0f7)
+
+This is the current state in which my controller encloser look like. I used a 3D printed PLA route template that I made to cut the box joint using a router.
+In addition, I engineered the front cavity plug for the micro USB adapter.
+
 **3D Models I Have Created:**
 
 Duck In Cocktail Glass:
