@@ -5,37 +5,6 @@ One of my projects in firmware is a universal microcontroller using the Raspberr
 
 **Note: All code and images are owned by Tyler Miller. Redistrubution not permitted.**
 
-**Software Engineer:**
-
-Here are some images from my custom engine I made at DigiPen:
-![image](https://github.com/tydmiller/Portfolio/assets/70169338/9c00b695-8bd8-4337-85d2-16552f3c7125)
-
-![image](https://github.com/tydmiller/Portfolio/assets/70169338/26c74675-9e25-491a-b114-7a75fd2c168e)
-
-3D Renderer using Vulkan and OpenGL:
-
-This project loads in STL and OBJ files and then displays them based on vertices coordinates given. I have provided my class for loading STL files as an example. Supports both Vulkan and OpenGL with a GLFW interface to manage the window.
-
-![image](https://github.com/tydmiller/Portfolio/assets/70169338/cc21c805-8384-465a-8ef0-d9835dca59cb)
-
-Bare Metal C on Raspberry Pi Zero 2 W:
-
-This turns on a LED light then turns it off. This was acheived using C and the BCM2837 assembly code.
-
-![Firmware](https://github.com/user-attachments/assets/09b9f42d-1b8f-4728-949c-bcb4b6bac192)
-
-Here are some of the projects I have worked on:
-![image](https://github.com/tydmiller/Portfolio/assets/70169338/f40f322e-9ee3-4198-8782-7342e3ba951f)
-Play it Here:
-
-https://funkeymonkey10.github.io/BigWhiteFish/
-
-![image](https://github.com/tydmiller/Portfolio/assets/70169338/cfa57007-2707-484a-b6ff-9a235c65e040)
-
-Play it Here:
-
-https://tydmiller.github.io/CSS385_MP3/
-
 **Projects That Use All Of My Skills (Software/Firmware development, CAD, 3D Modeling/Printing, Woodworking, Electrical Circuit Schematic)**
 
 Multi-Console Compatible Console Controller:
@@ -71,6 +40,39 @@ Final product of the button PCB after printing in SLA (resin) and FDM (PLA plast
 
 This is the current state in which my controller encloser look like. I used a 3D printed PLA route template that I made to cut the box joint using a router.
 In addition, I engineered the front cavity plug for the micro USB adapter.
+
+**Software Engineer:**
+
+Here are some images from my custom engine I made at DigiPen:
+![image](https://github.com/tydmiller/Portfolio/assets/70169338/9c00b695-8bd8-4337-85d2-16552f3c7125)
+
+![image](https://github.com/tydmiller/Portfolio/assets/70169338/26c74675-9e25-491a-b114-7a75fd2c168e)
+
+3D Renderer using Vulkan and OpenGL:
+
+This project loads in STL and OBJ files and then displays them based on vertices coordinates given. I have provided my class for loading STL files as an example. Supports both Vulkan and OpenGL with a GLFW interface to manage the window.
+
+![image](https://github.com/tydmiller/Portfolio/assets/70169338/cc21c805-8384-465a-8ef0-d9835dca59cb)
+
+Bare Metal C on Raspberry Pi Zero 2 W:
+
+This turns on a LED light then turns it off. This was acheived using C and the BCM2837 assembly code.
+
+![Firmware](https://github.com/user-attachments/assets/09b9f42d-1b8f-4728-949c-bcb4b6bac192)
+
+Here are some of the projects I have worked on:
+![image](https://github.com/tydmiller/Portfolio/assets/70169338/f40f322e-9ee3-4198-8782-7342e3ba951f)
+Play it Here:
+
+https://funkeymonkey10.github.io/BigWhiteFish/
+
+![image](https://github.com/tydmiller/Portfolio/assets/70169338/cfa57007-2707-484a-b6ff-9a235c65e040)
+
+Play it Here:
+
+https://tydmiller.github.io/CSS385_MP3/
+
+
 
 **3D Models I Have Created:**
 
