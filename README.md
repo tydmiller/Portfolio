@@ -40,6 +40,14 @@ https://tydmiller.github.io/CSS385_MP3/
 
 Multi-Console Compatible Console Controller:
 
+![Controller_Gif](https://github.com/user-attachments/assets/2e5e104d-d104-4c10-a58f-c5c08bf5b367)
+
+![Controller_Box_Top](https://github.com/user-attachments/assets/58006bd1-ea41-442a-ab70-c90ac267138f)
+
+![Controller_Box_Inside](https://github.com/user-attachments/assets/50330ea3-cf2e-4ad8-a1b9-aa2228d4fbfa)
+
+![Controller_Box_Bot](https://github.com/user-attachments/assets/632950b4-e2d7-4505-b8e6-6e88b0c450b6)
+
 ![image](https://github.com/user-attachments/assets/4cc435e3-b471-4fc6-a15c-9c00255b6331)
 
 Schematic for the controller includes joystick and button layout. Made in KiCad.
