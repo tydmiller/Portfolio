@@ -23,6 +23,12 @@ Schematic for the controller includes joystick and button layout. Made in KiCad.
 
 ![image](https://github.com/user-attachments/assets/2133e2d1-c5c5-4391-89cf-700743f8174b)
 
+Revision 1:
+
+<img width="1200" height="833" alt="Raspberry_Pi_Microcontroller_Revision" src="https://github.com/user-attachments/assets/647415bc-d32b-4f28-91a7-007add0b501f" />
+
+Added an IO expander for ease of use in regards to the Dpad buttons.
+
 Resin PCB I made in Blender for buttons of the controller.
 
 ![8_Button_PCB_Back](https://github.com/user-attachments/assets/574f54ef-3ddb-451f-8a0c-32d752fd8e5e)
