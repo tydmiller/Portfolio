@@ -1,11 +1,13 @@
 # Portfolio
 Hello and welcome to my portfolio. This portfolio displays my talents in the field of computer graphics and other engineering projects I work on in my past time. 
 This includes a couple of games that I have made and some of my custom game engine examples. I am skilled in C++, C, OpenGL, GLSL, Vulkan, SPV, and 3D modeling/CAD. I am currently learning how to develop on bare metal with C.
-One of my projects in firmware is a universal microcontroller using the Raspberry Pi Pico. Find the project is under the category "**Projects That Use All Of My Skills**".
 
 **Note: All code and images are owned by Tyler Miller. Redistrubution not permitted.**
 
-**Projects That Use All Of My Skills (Software/Firmware development, CAD, 3D Modeling/Printing, Woodworking, Electrical Circuit Schematic)**
+ESP32 Tetris Game:
+
+This is an example of how to use a touch screen with a ESP32-C6 DevKitC-1. In this example I have created a tetris-like game. It uses LVGL graphics library and SPI protocol to communicate between the ESP32 microcontroller and the touch screen. If you use a different screen there are several modifications you will have to make.
+
 
 Multi-Console Compatible Console Controller:
 
