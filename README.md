@@ -6,6 +6,9 @@ This includes a couple of games that I have made and some of my custom game engi
 
 ESP32 Tetris Game:
 
+<img width="426" height="240" alt="Tetris_ESP32" src="https://github.com/user-attachments/assets/0ef690f5-82bc-4e46-bf06-1eb2bab40f7c" />
+
+
 This is an example of how to use a touch screen with a ESP32-C6 DevKitC-1. In this example I have created a tetris-like game. It uses LVGL graphics library and SPI protocol to communicate between the ESP32 microcontroller and the touch screen. If you use a different screen there are several modifications you will have to make.
 
 
